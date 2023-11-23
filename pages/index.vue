@@ -4,7 +4,7 @@
         <div class="hero-content">
           <h1>Selamat Datang di Halaman Home</h1>
           <p>Temukan barang terbaik untuk kebutuhan Anda</p>
-          <a href="/shop" class="btn-primary">Belanja Sekarang</a>
+          <NuxtLink to="/product">Belanja Sekarang</NuxtLink>
         </div>
       </section>
   
@@ -20,7 +20,7 @@
   }
   
   .hero {
-    background: url('/path/to/hero-image.jpg') center/cover no-repeat;
+    /* background: url('/path/to/hero-image.jpg') center/cover no-repeat; */
     color: #fff;
     text-align: center;
     padding: 60px 0;
